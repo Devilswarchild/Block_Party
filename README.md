@@ -1,4 +1,4 @@
-# Block_Party
+# MineColonies: Block Party
 
 Welcome to The Block Party in MineColonies!
 
