@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " b ",
+    "  c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_bed"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    },
+    "c": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "id": "block_party:dreaming_in_dimensions",
+    "count": 1
+  }
+}

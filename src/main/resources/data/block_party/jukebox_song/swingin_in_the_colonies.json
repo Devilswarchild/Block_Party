@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.swingin_in_the_colonies.desc"
+  },
+  "length_in_seconds": 189,
+  "sound_event": "block_party:swingin_in_the_colonies"
+}

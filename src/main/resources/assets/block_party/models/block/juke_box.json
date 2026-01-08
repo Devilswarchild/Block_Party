@@ -1,0 +1,9 @@
+{
+  "parent": "block_party:custom/jukebox",
+  "textures": {
+    "all": "block_party:block/jukebox",
+    "particle": "block_party:block/jukebox",
+    "5": "block_party:block/jukebox"
+  },
+  "render_type": "solid"
+}

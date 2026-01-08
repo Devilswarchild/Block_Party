@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.pixelated_quest.desc"
+  },
+  "length_in_seconds": 183,
+  "sound_event": "block_party:pixelated_quest"
+}

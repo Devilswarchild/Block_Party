@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlankDisc"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnergySurge"
+    },
+    "name": "energy_surge_recipe",
+    "namespace": "mod"
+  }
+}

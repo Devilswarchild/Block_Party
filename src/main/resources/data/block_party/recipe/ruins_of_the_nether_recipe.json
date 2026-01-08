@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_brick"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:ruins_of_the_nether",
+    "count": 1
+  }
+}

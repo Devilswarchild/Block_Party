@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:beyond_the_block",
+    "count": 1
+  }
+}

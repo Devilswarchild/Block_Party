@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:note_block"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:swingin_in_the_colonies",
+    "count": 1
+  }
+}

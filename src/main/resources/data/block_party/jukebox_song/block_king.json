@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.block_king.desc"
+  },
+  "length_in_seconds": 89,
+  "sound_event": "block_party:block_king"
+}

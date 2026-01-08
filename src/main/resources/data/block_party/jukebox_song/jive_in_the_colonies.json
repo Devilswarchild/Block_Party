@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.jive_in_the_colonies.desc"
+  },
+  "length_in_seconds": 187,
+  "sound_event": "block_party:jive_in_the_colonies"
+}

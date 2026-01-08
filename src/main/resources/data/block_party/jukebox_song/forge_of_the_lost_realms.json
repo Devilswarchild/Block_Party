@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.forge_of_the_lost_realms.desc"
+  },
+  "length_in_seconds": 191,
+  "sound_event": "block_party:forge_of_the_lost_realms"
+}

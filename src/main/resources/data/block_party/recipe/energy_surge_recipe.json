@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    " bb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "block_party:blank_disc"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "block_party:energy_surge",
+    "count": 1
+  }
+}

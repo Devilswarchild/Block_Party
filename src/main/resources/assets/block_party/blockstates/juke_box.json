@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "block_party:block/juke_box"
+    },
+    "facing=east": {
+      "model": "block_party:block/juke_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "block_party:block/juke_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "block_party:block/juke_box",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "block_party:block/juke_box",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "block_party:block/juke_box",
+      "x": 90
+    }
+  }
+}

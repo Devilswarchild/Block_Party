@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:jive_in_the_colonies",
+    "count": 1
+  }
+}

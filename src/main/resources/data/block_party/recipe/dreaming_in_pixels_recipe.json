@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " b ",
+    "  c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:purple_bed"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    },
+    "c": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  },
+  "result": {
+    "id": "block_party:dreaming_in_pixels",
+    "count": 1
+  }
+}

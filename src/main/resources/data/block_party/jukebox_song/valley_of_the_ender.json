@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.valley_of_the_ender.desc"
+  },
+  "length_in_seconds": 283,
+  "sound_event": "block_party:valley_of_the_ender"
+}

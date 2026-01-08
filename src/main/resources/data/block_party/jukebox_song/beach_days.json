@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.beach_days.desc"
+  },
+  "length_in_seconds": 242,
+  "sound_event": "block_party:beach_days"
+}

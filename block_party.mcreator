@@ -1,0 +1,1733 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlockParty",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_party",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BlankDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/BlankDiscItem.java",
+          "src/main/resources/assets/block_party/models/item/blank_disc.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BlankDiscRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_disc_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/blank_disc_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "JukeBox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "juke_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/juke_box.json",
+          "src/main/java/net/devilswarchild/blockparty/block/JukeBoxBlock.java",
+          "src/main/resources/assets/block_party/models/block/juke_box.json",
+          "src/main/resources/data/block_party/loot_table/blocks/juke_box.json",
+          "src/main/java/net/devilswarchild/blockparty/block/entity/JukeBoxBlockEntity.java",
+          "src/main/resources/assets/block_party/blockstates/juke_box.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "RecordPlayer",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "record_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/client/gui/RecordPlayerScreen.java",
+          "src/main/java/net/devilswarchild/blockparty/network/RecordPlayerButtonMessage.java",
+          "src/main/java/net/devilswarchild/blockparty/world/inventory/RecordPlayerMenu.java"
+        ]
+      },
+      "path": "~/MCDA/GUI"
+    },
+    {
+      "name": "JukeBoxOnRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "juke_box_on_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/JukeBoxOnRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "JukeBoxRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "juke_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/juke_box_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "CozyCafe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cozy_cafe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/CozyCafeItem.java",
+          "src/main/resources/data/block_party/jukebox_song/cozy_cafe.json",
+          "src/main/resources/assets/block_party/models/item/cozy_cafe.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BeachDays",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beach_days",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/beach_days.json",
+          "src/main/resources/data/block_party/jukebox_song/beach_days.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BeachDaysItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BeachSunset",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beach_sunset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/beach_sunset.json",
+          "src/main/resources/assets/block_party/models/item/beach_sunset.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BeachSunsetItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BeyondTheBlock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_the_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/beyond_the_block.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BeyondTheBlockItem.java",
+          "src/main/resources/data/block_party/jukebox_song/beyond_the_block.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BlockBeatOdyssey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_beat_odyssey",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/block_beat_odyssey.json",
+          "src/main/resources/data/block_party/jukebox_song/block_beat_odyssey.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BlockBeatOdysseyItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BuildersOfTitans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_of_titans",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/builders_of_titans.json",
+          "src/main/resources/data/block_party/jukebox_song/builders_of_titans.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BuildersOfTitansItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BlockKing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_king",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/block_king.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BlockKingItem.java",
+          "src/main/resources/assets/block_party/models/item/block_king.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BuildingDreamsInTheWild",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_dreams_in_the_wild",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/building_dreams_in_the_wild.json",
+          "src/main/java/net/devilswarchild/blockparty/item/BuildingDreamsInTheWildItem.java",
+          "src/main/resources/assets/block_party/models/item/building_dreams_in_the_wild.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BuildingOurTomorrow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_our_tomorrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/BuildingOurTomorrowItem.java",
+          "src/main/resources/assets/block_party/models/item/building_our_tomorrow.json",
+          "src/main/resources/data/block_party/jukebox_song/building_our_tomorrow.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "DimensionalOdyssey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_odyssey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/DimensionalOdysseyItem.java",
+          "src/main/resources/data/block_party/jukebox_song/dimensional_odyssey.json",
+          "src/main/resources/assets/block_party/models/item/dimensional_odyssey.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "DiscoBlocks",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_blocks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/DiscoBlocksItem.java",
+          "src/main/resources/data/block_party/jukebox_song/disco_blocks.json",
+          "src/main/resources/assets/block_party/models/item/disco_blocks.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "DreamingInDimensions",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming_in_dimensions",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/DreamingInDimensionsItem.java",
+          "src/main/resources/data/block_party/jukebox_song/dreaming_in_dimensions.json",
+          "src/main/resources/assets/block_party/models/item/dreaming_in_dimensions.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "DreamingInPixels",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming_in_pixels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/dreaming_in_pixels.json",
+          "src/main/java/net/devilswarchild/blockparty/item/DreamingInPixelsItem.java",
+          "src/main/resources/data/block_party/jukebox_song/dreaming_in_pixels.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "EndersEnd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enders_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/enders_end.json",
+          "src/main/resources/assets/block_party/models/item/enders_end.json",
+          "src/main/java/net/devilswarchild/blockparty/item/EndersEndItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "EnergySurge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_surge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/EnergySurgeItem.java",
+          "src/main/resources/assets/block_party/models/item/energy_surge.json",
+          "src/main/resources/data/block_party/jukebox_song/energy_surge.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "JiveInTheColonies",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jive_in_the_colonies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/jive_in_the_colonies.json",
+          "src/main/java/net/devilswarchild/blockparty/item/JiveInTheColoniesItem.java",
+          "src/main/resources/assets/block_party/models/item/jive_in_the_colonies.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "ForgeOfTheLostRealms",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_of_the_lost_realms",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/forge_of_the_lost_realms.json",
+          "src/main/java/net/devilswarchild/blockparty/item/ForgeOfTheLostRealmsItem.java",
+          "src/main/resources/assets/block_party/models/item/forge_of_the_lost_realms.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "MysticalForest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystical_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/MysticalForestItem.java",
+          "src/main/resources/assets/block_party/models/item/mystical_forest.json",
+          "src/main/resources/data/block_party/jukebox_song/mystical_forest.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "NeonDreams",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dreams",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/jukebox_song/neon_dreams.json",
+          "src/main/resources/assets/block_party/models/item/neon_dreams.json",
+          "src/main/java/net/devilswarchild/blockparty/item/NeonDreamsItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "NetherReverie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reverie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/NetherReverieItem.java",
+          "src/main/resources/assets/block_party/models/item/nether_reverie.json",
+          "src/main/resources/data/block_party/jukebox_song/nether_reverie.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "PixelDreams",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixel_dreams",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/PixelDreamsItem.java",
+          "src/main/resources/assets/block_party/models/item/pixel_dreams.json",
+          "src/main/resources/data/block_party/jukebox_song/pixel_dreams.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "PixelEchoes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixel_echoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/pixel_echoes.json",
+          "src/main/java/net/devilswarchild/blockparty/item/PixelEchoesItem.java",
+          "src/main/resources/data/block_party/jukebox_song/pixel_echoes.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "PixelSurge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixel_surge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/PixelSurgeItem.java",
+          "src/main/resources/assets/block_party/models/item/pixel_surge.json",
+          "src/main/resources/data/block_party/jukebox_song/pixel_surge.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "PixelatedQuest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixelated_quest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/pixelated_quest.json",
+          "src/main/resources/data/block_party/jukebox_song/pixelated_quest.json",
+          "src/main/java/net/devilswarchild/blockparty/item/PixelatedQuestItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "PixelsInMotion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixels_in_motion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/pixels_in_motion.json",
+          "src/main/resources/data/block_party/jukebox_song/pixels_in_motion.json",
+          "src/main/java/net/devilswarchild/blockparty/item/PixelsInMotionItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "RockTheColonies",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_the_colonies",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/rock_the_colonies.json",
+          "src/main/java/net/devilswarchild/blockparty/item/RockTheColoniesItem.java",
+          "src/main/resources/data/block_party/jukebox_song/rock_the_colonies.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "RuinsOfTheNether",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruins_of_the_nether",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/ruins_of_the_nether.json",
+          "src/main/java/net/devilswarchild/blockparty/item/RuinsOfTheNetherItem.java",
+          "src/main/resources/data/block_party/jukebox_song/ruins_of_the_nether.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "SwinginInTheColonies",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swingin_in_the_colonies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/SwinginInTheColoniesItem.java",
+          "src/main/resources/assets/block_party/models/item/swingin_in_the_colonies.json",
+          "src/main/resources/data/block_party/jukebox_song/swingin_in_the_colonies.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "ValleyOfTheEnder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valley_of_the_ender",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/block_party/models/item/valley_of_the_ender.json",
+          "src/main/resources/data/block_party/jukebox_song/valley_of_the_ender.json",
+          "src/main/java/net/devilswarchild/blockparty/item/ValleyOfTheEnderItem.java"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "WhispersInTheBlocks",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whispers_in_the_blocks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/item/WhispersInTheBlocksItem.java",
+          "src/main/resources/assets/block_party/models/item/whispers_in_the_blocks.json",
+          "src/main/resources/data/block_party/jukebox_song/whispers_in_the_blocks.json"
+        ]
+      },
+      "path": "~/MCDA/Discs"
+    },
+    {
+      "name": "BeachDaysRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beach_days_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/beach_days_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BeachSunsetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beach_sunset_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/beach_sunset_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BeyondTheBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_the_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/beyond_the_block_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BlockBeatOdysseyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_beat_odyssey_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/block_beat_odyssey_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BlockKingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_king_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/block_king_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BuildersOfTitansRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_of_titans_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/builders_of_titans_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BuildingDreamsInTheWildRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_dreams_in_the_wild_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/building_dreams_in_the_wild_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "BuildingOurTomorrowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_our_tomorrow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/building_our_tomorrow_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "CozyCafeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cozy_cafe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/cozy_cafe_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "DimensionalOdysseyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_odyssey_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/dimensional_odyssey_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "DiscoBlocksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_blocks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/disco_blocks_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "DreamingInDimensionsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming_in_dimensions_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/dreaming_in_dimensions_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "DreamingInPixelsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming_in_pixels_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/dreaming_in_pixels_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "EndersEndRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enders_end_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/enders_end_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "EnergySurgeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_surge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/energy_surge_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "ForgeOfTheLostRealmsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_of_the_lost_realms_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/forge_of_the_lost_realms_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "JiveInTheColoniesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jive_in_the_colonies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/jive_in_the_colonies_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "MysticalForestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystical_forest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/mystical_forest_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "NeonDreamsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dreams_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/neon_dreams_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "NetherReverieRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reverie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/nether_reverie_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "PixelDreamsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixel_dreams_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/pixel_dreams_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "PixelEchoesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixel_echoes_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/pixel_echoes_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "PixelSurgeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixel_surge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/pixel_surge_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "PixelatedQuestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixelated_quest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/pixelated_quest_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "PixelsInMotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixels_in_motion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/pixels_in_motion_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "RockTheColoniesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_the_colonies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/rock_the_colonies_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "RuinsOfTheNetherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruins_of_the_nether_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/ruins_of_the_nether_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "SwinginInTheColoniesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swingin_in_the_colonies_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/swingin_in_the_colonies_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "ValleyOfTheEnderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valley_of_the_ender_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/valley_of_the_ender_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "WhispersInTheBlocksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whispers_in_the_blocks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/block_party/recipe/whispers_in_the_blocks_recipe.json"
+        ]
+      },
+      "path": "~/MCDA/Recipes"
+    },
+    {
+      "name": "JukeBoxManager",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "juke_box_manager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/JukeBoxManager.java"
+        ]
+      },
+      "path": "~/MCDA/Custom Code"
+    },
+    {
+      "name": "OnPlayBtnPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_play_btn_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/OnPlayBtnPressedProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "PlayCurrentDisc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_current_disc",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/PlayCurrentDiscProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "StopMusic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_music",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/StopMusicProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "OnRepeatBtnPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_repeat_btn_pressed",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/OnRepeatBtnPressedProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "OnShuffleBtnPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_shuffle_btn_pressed",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/OnShuffleBtnPressedProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "OnStopBtnPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_stop_btn_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/OnStopBtnPressedProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    },
+    {
+      "name": "JukeBoxUpdateOnTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "juke_box_update_on_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/devilswarchild/blockparty/procedures/JukeBoxUpdateOnTickProcedure.java"
+        ]
+      },
+      "path": "~/MCDA/Procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "beach_days",
+      "files": [
+        "beach_days"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "beach_sunset",
+      "files": [
+        "beach_sunset"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "beyond_the_block",
+      "files": [
+        "beyond_the_block"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "block_beat_odyssey",
+      "files": [
+        "block_beat_odyssey"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "block_king",
+      "files": [
+        "block_king"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "building_our_tomorrow",
+      "files": [
+        "building_our_tomorrow"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "builders_of_titans",
+      "files": [
+        "builders_of_titans"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "building_dreams_in_the_wild",
+      "files": [
+        "building_dreams_in_the_wild"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "cozy_cafe",
+      "files": [
+        "cozy_cafe"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "dimensional_odyssey",
+      "files": [
+        "dimensional_odyssey"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "disco_blocks",
+      "files": [
+        "disco_blocks"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "dreaming_in_dimensions",
+      "files": [
+        "dreaming_in_dimensions"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "dreaming_in_pixels",
+      "files": [
+        "dreaming_in_pixels"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "enders_end",
+      "files": [
+        "enders_end"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "energy_surge",
+      "files": [
+        "energy_surge"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "forge_of_the_lost_realms",
+      "files": [
+        "forge_of_the_lost_realms"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "jive_in_the_colonies",
+      "files": [
+        "jive_in_the_colonies"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "mystical_forest",
+      "files": [
+        "mystical_forest"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "neon_dreams",
+      "files": [
+        "neon_dreams"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "nether_reverie",
+      "files": [
+        "nether_reverie"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pixel_dreams",
+      "files": [
+        "pixel_dreams"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pixel_echoes",
+      "files": [
+        "pixel_echoes"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pixel_surge",
+      "files": [
+        "pixel_surge"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pixelated_quest",
+      "files": [
+        "pixelated_quest"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pixels_in_motion",
+      "files": [
+        "pixels_in_motion"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "rock_the_colonies",
+      "files": [
+        "rock_the_colonies"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "ruins_of_the_nether",
+      "files": [
+        "ruins_of_the_nether"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "swingin_in_the_colonies",
+      "files": [
+        "swingin_in_the_colonies"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "valley_of_the_ender",
+      "files": [
+        "valley_of_the_ender"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "whispers_in_the_blocks",
+      "files": [
+        "whispers_in_the_blocks"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "CUSTOM:BeachDays",
+      "CUSTOM:BeachSunset",
+      "CUSTOM:BeyondTheBlock",
+      "CUSTOM:BlockBeatOdyssey",
+      "CUSTOM:BlockKing",
+      "CUSTOM:BuildersOfTitans",
+      "CUSTOM:BuildingDreamsInTheWild",
+      "CUSTOM:BuildingOurTomorrow",
+      "CUSTOM:CozyCafe",
+      "CUSTOM:DimensionalOdyssey",
+      "CUSTOM:DiscoBlocks",
+      "CUSTOM:DreamingInDimensions",
+      "CUSTOM:DreamingInPixels",
+      "CUSTOM:EndersEnd",
+      "CUSTOM:EnergySurge",
+      "CUSTOM:ForgeOfTheLostRealms",
+      "CUSTOM:JiveInTheColonies",
+      "CUSTOM:MysticalForest",
+      "CUSTOM:NeonDreams",
+      "CUSTOM:NetherReverie",
+      "CUSTOM:PixelatedQuest",
+      "CUSTOM:PixelDreams",
+      "CUSTOM:PixelEchoes",
+      "CUSTOM:PixelsInMotion",
+      "CUSTOM:PixelSurge",
+      "CUSTOM:RockTheColonies",
+      "CUSTOM:RuinsOfTheNether",
+      "CUSTOM:SwinginInTheColonies",
+      "CUSTOM:ValleyOfTheEnder",
+      "CUSTOM:WhispersInTheBlocks"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:JukeBox"
+    ],
+    "ITEMS:minecraft:creeper_drop_music_discs": [
+      "CUSTOM:BeachDays",
+      "CUSTOM:BeachSunset",
+      "CUSTOM:BeyondTheBlock",
+      "CUSTOM:BlockBeatOdyssey",
+      "CUSTOM:BlockKing",
+      "CUSTOM:BuildersOfTitans",
+      "CUSTOM:BuildingDreamsInTheWild",
+      "CUSTOM:BuildingOurTomorrow",
+      "CUSTOM:CozyCafe",
+      "CUSTOM:DimensionalOdyssey",
+      "CUSTOM:DiscoBlocks",
+      "CUSTOM:DreamingInDimensions",
+      "CUSTOM:DreamingInPixels",
+      "CUSTOM:EndersEnd",
+      "CUSTOM:EnergySurge",
+      "CUSTOM:ForgeOfTheLostRealms",
+      "CUSTOM:JiveInTheColonies",
+      "CUSTOM:MysticalForest",
+      "CUSTOM:NeonDreams",
+      "CUSTOM:NetherReverie",
+      "CUSTOM:PixelatedQuest",
+      "CUSTOM:PixelDreams",
+      "CUSTOM:PixelEchoes",
+      "CUSTOM:PixelsInMotion",
+      "CUSTOM:PixelSurge",
+      "CUSTOM:RockTheColonies",
+      "CUSTOM:RuinsOfTheNether",
+      "CUSTOM:SwinginInTheColonies",
+      "CUSTOM:ValleyOfTheEnder",
+      "CUSTOM:WhispersInTheBlocks"
+    ],
+    "ITEMS:c:music_discs": [
+      "CUSTOM:BeachDays",
+      "CUSTOM:BeachSunset",
+      "CUSTOM:BeyondTheBlock",
+      "CUSTOM:BlockBeatOdyssey",
+      "CUSTOM:BlockKing",
+      "CUSTOM:BuildersOfTitans",
+      "CUSTOM:BuildingDreamsInTheWild",
+      "CUSTOM:BuildingOurTomorrow",
+      "CUSTOM:CozyCafe",
+      "CUSTOM:DimensionalOdyssey",
+      "CUSTOM:DiscoBlocks",
+      "CUSTOM:DreamingInDimensions",
+      "CUSTOM:DreamingInPixels",
+      "CUSTOM:EndersEnd",
+      "CUSTOM:EnergySurge",
+      "CUSTOM:ForgeOfTheLostRealms",
+      "CUSTOM:JiveInTheColonies",
+      "CUSTOM:MysticalForest",
+      "CUSTOM:NeonDreams",
+      "CUSTOM:NetherReverie",
+      "CUSTOM:PixelatedQuest",
+      "CUSTOM:PixelDreams",
+      "CUSTOM:PixelEchoes",
+      "CUSTOM:PixelsInMotion",
+      "CUSTOM:PixelSurge",
+      "CUSTOM:RockTheColonies",
+      "CUSTOM:RuinsOfTheNether",
+      "CUSTOM:SwinginInTheColonies",
+      "CUSTOM:ValleyOfTheEnder",
+      "CUSTOM:WhispersInTheBlocks"
+    ],
+    "ITEMS:bibliocraft:disc_rack_discs": [
+      "CUSTOM:BeachDays",
+      "CUSTOM:BeachSunset",
+      "CUSTOM:BeyondTheBlock",
+      "CUSTOM:BlockBeatOdyssey",
+      "CUSTOM:BlockKing",
+      "CUSTOM:BuildersOfTitans",
+      "CUSTOM:BuildingDreamsInTheWild",
+      "CUSTOM:BuildingOurTomorrow",
+      "CUSTOM:CozyCafe",
+      "CUSTOM:DimensionalOdyssey",
+      "CUSTOM:DiscoBlocks",
+      "CUSTOM:DreamingInDimensions",
+      "CUSTOM:DreamingInPixels",
+      "CUSTOM:EndersEnd",
+      "CUSTOM:EnergySurge",
+      "CUSTOM:ForgeOfTheLostRealms",
+      "CUSTOM:JiveInTheColonies",
+      "CUSTOM:MysticalForest",
+      "CUSTOM:NeonDreams",
+      "CUSTOM:NetherReverie",
+      "CUSTOM:PixelatedQuest",
+      "CUSTOM:PixelDreams",
+      "CUSTOM:PixelEchoes",
+      "CUSTOM:PixelsInMotion",
+      "CUSTOM:PixelSurge",
+      "CUSTOM:RockTheColonies",
+      "CUSTOM:RuinsOfTheNether",
+      "CUSTOM:SwinginInTheColonies",
+      "CUSTOM:ValleyOfTheEnder",
+      "CUSTOM:WhispersInTheBlocks"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:BlockParty": [
+      "BlankDisc",
+      "BeachDays",
+      "BeachSunset",
+      "BeyondTheBlock",
+      "BlockBeatOdyssey",
+      "BlockKing",
+      "BuildersOfTitans",
+      "BuildingDreamsInTheWild",
+      "BuildingOurTomorrow",
+      "CozyCafe",
+      "DimensionalOdyssey",
+      "DiscoBlocks",
+      "DreamingInDimensions",
+      "DreamingInPixels",
+      "EndersEnd",
+      "EnergySurge",
+      "ForgeOfTheLostRealms",
+      "JiveInTheColonies",
+      "MysticalForest",
+      "NeonDreams",
+      "NetherReverie",
+      "PixelDreams",
+      "PixelEchoes",
+      "PixelSurge",
+      "PixelatedQuest",
+      "PixelsInMotion",
+      "RockTheColonies",
+      "RuinsOfTheNether",
+      "SwinginInTheColonies",
+      "ValleyOfTheEnder",
+      "WhispersInTheBlocks",
+      "JukeBox"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "subtitles.builders_of_titans_medley": "Builders of titans (Medley)",
+      "block.block_party.juke_box": "Juke Box",
+      "subtitles.block_king": "",
+      "subtitles.music_disc_rock_the_colonies": "MCDA - Rock the Colonies",
+      "subtitles.building_our_tomorrow": "",
+      "subtitles.music_disc_builders_of_titans_medley": "MCDA - Builders of Titans (Medley)",
+      "subtitles.builders_of_titans": "",
+      "subtitles.pixelated_quest_retro_mix": "Pixelated Quest (Retro Mix)",
+      "subtitles.beyond_the_block": "",
+      "subtitles.music_disc_pixel_echoes": "MCDA - Pixel Echoes",
+      "subtitles.music_dics_jive_in_the_colonies_cuban_mix": "MCDA - Jive in the Colonies (Cuban Mix)",
+      "subtitles.pixels_in_motion": "",
+      "subtitles.craftin_mcda_style": "Craftin MCDA Style",
+      "subtitles.music_disc_swingin_in_the_colonies_sinatra_mix": "MCDA - Swingin\u0027 in the Colonies (SInatra Mix)",
+      "subtitles.music_disc_pixel_dreams": "MCDA - Pixel Dreams",
+      "subtitles.music_disc_craftin_mcda_style": "MCDA - Craftin\u0027 MCDA Style",
+      "subtitles.music_disc_block_king_undead_mix": "MCDA - Block King (Undead Mix)",
+      "subtitles.pixel_surge": "",
+      "subtitles.musicdiscblockking": "MCDA - Block King",
+      "subtitles.block_king_undead_mix": "Block King (Undead Mix)",
+      "subtitles.pixel_dreams_night_mix": "Pixel Dreams (Night Mix)",
+      "subtitles.whispers_in_the_blocks": "",
+      "subtitles.energy_surge": "",
+      "subtitles.music_disc_pixel_echoes_synth_mix": "MCDA - Pixel Echoes (Synth Mix)",
+      "subtitles.music_disc_disco_blocks": "MCDA - Disco Blocks",
+      "subtitles.dreaming_in_dimensions": "",
+      "subtitles.music_disc_pixel_surge": "MCDA Sountrack",
+      "subtitles.music_disc_disco_blocks_soul_mix": "MCDA - Disco Blocks (Soul Mix)",
+      "subtitles.jive_in_the_colonies": "",
+      "subtitles.pixel_echoes": "",
+      "subtitles.dreaming_in_pixels": "",
+      "subtitles.building_dreams_in_the_wild": "",
+      "subtitles.music_disc_building_our_tomorrow": "MCDA - Building Our Tomorrow",
+      "subtitles.music_disc_mcda_waves": "MCDA - MCDA Waves",
+      "subtitles.neon_dreams": "",
+      "subtitles.block_beat_odyssey": "",
+      "subtitles.music_disc_pixel_dreams_night_mix": "MCDA - Pixel Dreams (Night Mix)",
+      "subtitles.dimensional_odyssey": "",
+      "subtitles.rock_the_colonies": "",
+      "subtitles.forge_of_the_lost_realms": "",
+      "subtitles.music_disc_builders_of_titans": "MCDA - Builders of Titans",
+      "item_group.block_party.block_party": "Block Party",
+      "subtitles.swingin_in_the_colonies_sinatra_mix": "Swingin\u0027 in the Colonies (Sinatra Mix)",
+      "subtitles.disco_blocks": "",
+      "subtitles.music_disc_jive_in_the_colonies": "MCDA - Jive in the Colonies",
+      "subtitles.pixel_echoes_synth_mix": "Pixel Echoes (Synth Mix)",
+      "subtitles.jive_in_the_colonies_cuban_mix": "Jive in the Colonies (Cuban Mix)",
+      "item.block_party.blank_disc": "Blank Disc",
+      "subtitles.pixel_dreams": "",
+      "subtitles.disco_blocks_soul_mix": "Disco Blocks (Soul Mix)",
+      "subtitles.mcda_waves": "MCDA Waves",
+      "subtitles.pixelated_quest": "",
+      "subtitles.swingin_in_the_colonies": "",
+      "subtitles.block_party": "",
+      "subtitles.beach_days": "",
+      "subtitles.beach_sunset": "",
+      "subtitles.cozy_cafe": "",
+      "subtitles.enders_end": "",
+      "subtitles.mystical_forest": "",
+      "subtitles.nether_reverie": "",
+      "subtitles.ruins_of_the_nether": "",
+      "subtitles.valley_of_the_ender": "",
+      "item.block_party.beyond_the_block": "Beyond The Block",
+      "item.block_party.beyond_the_block.desc": "Beyond the Block - Devilswarchild",
+      "item.block_party.cozy_cafe": "Cozy Cafe",
+      "item.block_party.cozy_cafe.desc": "Cozy Café - Devilswarchild",
+      "item.block_party.beach_days.desc": "Beach Days - Devilswarchild",
+      "item.block_party.beach_days": "Beach Days",
+      "item.block_party.beach_sunset.desc": "Beach Sunset - Devilswarchild",
+      "item.block_party.beach_sunset": "Beach Sunset",
+      "item.block_party.block_beat_odyssey.desc": "Block Beat Odyssey - Devilswarchild",
+      "item.block_party.block_beat_odyssey": "Block Beat Odyssey",
+      "item.block_party.builders_of_titans": "Builders Of Titans",
+      "item.block_party.builders_of_titans.desc": "Builders of Titans - Devilswarchild",
+      "item.block_party.block_king": "Block King",
+      "item.block_party.block_king.desc": "Block King - Devilswarchild",
+      "item.block_party.building_dreams_in_the_wild": "Building Dreams In The Wild",
+      "item.block_party.building_dreams_in_the_wild.desc": "Building Dreams in the Wild - Devilswarchild",
+      "item.block_party.building_our_tomorrow.desc": "Building Our Tomorrow - Devilswarchild",
+      "item.block_party.building_our_tomorrow": "Building Our Tomorrow",
+      "item.block_party.dimensional_odyssey": "Dimensional Odyssey",
+      "item.block_party.dimensional_odyssey.desc": "Devilswarchild - Dimensional Adventure",
+      "item.block_party.disco_blocks.desc": "Disco Blocks - Devilswarchild",
+      "item.block_party.disco_blocks": "Disco Blocks",
+      "item.block_party.dreaming_in_dimensions": "Dreaming In Dimensions",
+      "item.block_party.dreaming_in_dimensions.desc": "Dreaming In Dimensions - Devilswarchild",
+      "item.block_party.dreaming_in_pixels": "Dreaming In Pixels",
+      "item.block_party.dreaming_in_pixels.desc": "Dreaming in Pixels - Devilswarchild",
+      "item.block_party.enders_end.desc": "Ender\u0027s End - Devilswarchild",
+      "item.block_party.enders_end": "Enders End",
+      "item.block_party.energy_surge.desc": "Energy Surge - Devilswarchild",
+      "item.block_party.energy_surge": "Energy Surge",
+      "item.block_party.jive_in_the_colonies.desc": "Jive in the Colonies - Devilswarchild",
+      "item.block_party.jive_in_the_colonies": "Jive In The Colonies",
+      "item.block_party.forge_of_the_lost_realms": "Forge Of The Lost Realms",
+      "item.block_party.forge_of_the_lost_realms.desc": "Forge of the Lost Realms - Devilswarchild",
+      "item.block_party.mystical_forest.desc": "Mystical Forest - Devilswarchild",
+      "item.block_party.mystical_forest": "Mystical Forest",
+      "item.block_party.neon_dreams.desc": "Neon Dreams - Devilswarchild",
+      "item.block_party.neon_dreams": "Neon Dreams",
+      "item.block_party.nether_reverie.desc": "Nether Reverie - Devilswarchild",
+      "item.block_party.nether_reverie": "Nether Reverie",
+      "item.block_party.pixel_dreams.desc": "Pixel Dreams - Devilswarchild",
+      "item.block_party.pixel_dreams": "Pixel Dreams",
+      "item.block_party.pixel_echoes.desc": "Pixel Echoes - Devilswarchild",
+      "item.block_party.pixel_echoes": "Pixel Echoes",
+      "item.block_party.pixel_surge.desc": "Pixel Surge - Devilswarchild",
+      "item.block_party.pixel_surge": "Pixel Surge",
+      "item.block_party.pixelated_quest.desc": "Pixelated Quest - Devilswarchild",
+      "item.block_party.pixelated_quest": "Pixelated Quest",
+      "item.block_party.pixels_in_motion": "Pixels In Motion",
+      "item.block_party.pixels_in_motion.desc": "Pixels in Motion - Devilswarchild",
+      "item.block_party.rock_the_colonies": "Rock The Colonies",
+      "item.block_party.rock_the_colonies.desc": "Rock The Colonies - Devilswarchild",
+      "item.block_party.ruins_of_the_nether.desc": "Ruins of the Nether - Devilswarchild",
+      "item.block_party.ruins_of_the_nether": "Ruins Of The Nether",
+      "item.block_party.swingin_in_the_colonies.desc": "Swingin\u0027 In the Colonies - Devilswarchild",
+      "item.block_party.swingin_in_the_colonies": "Swingin In The Colonies",
+      "item.block_party.valley_of_the_ender.desc": "Valley of the Ender - Devilswarchild",
+      "item.block_party.valley_of_the_ender": "Valley Of The Ender",
+      "item.block_party.whispers_in_the_blocks": "Whispers In The Blocks",
+      "item.block_party.whispers_in_the_blocks.desc": "Whispers in the Blocks - Devilswarchild",
+      "gui.block_party.record_player.songProgress_suffix": "",
+      "gui.block_party.record_player.songProgress_prefix": ""
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/devilswarchild/blockparty/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModMenus.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModScreens.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModBlocks.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModBlockEntities.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModItems.java",
+      "src/main/resources/assets/block_party/sounds.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/devilswarchild/blockparty/BlockPartyMod.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModTabs.java",
+      "src/main/java/net/devilswarchild/blockparty/init/BlockPartyModSounds.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "MCDA",
+        "children": [
+          {
+            "name": "Discs",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "GUI",
+            "children": []
+          },
+          {
+            "name": "Custom Code",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "block_party",
+    "modName": "The Block Party",
+    "version": "2.0.0",
+    "description": "MineColonies: Dimesnional Adventure Soundtrack",
+    "author": "Devilswarchild",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/minecolonies-block-party",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created by Devilswarchild",
+    "modElementsPackage": "net.devilswarchild.blockparty"
+  },
+  "mcreatorVersion": 202500345720
+}

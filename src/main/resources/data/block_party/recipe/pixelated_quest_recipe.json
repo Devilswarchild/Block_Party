@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d ",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:zombie_head"
+    },
+    "b": {
+      "item": "minecraft:creeper_head"
+    },
+    "c": {
+      "item": "minecraft:dragon_head"
+    },
+    "d": {
+      "item": "block_party:blank_disc"
+    },
+    "e": {
+      "item": "minecraft:piglin_head"
+    }
+  },
+  "result": {
+    "id": "block_party:pixelated_quest",
+    "count": 1
+  }
+}

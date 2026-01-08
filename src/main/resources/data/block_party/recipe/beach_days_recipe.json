@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " b ",
+    "  c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:clay_ball"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    },
+    "c": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "id": "block_party:beach_days",
+    "count": 1
+  }
+}

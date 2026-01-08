@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "b": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:dimensional_odyssey",
+    "count": 1
+  }
+}

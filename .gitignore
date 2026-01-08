@@ -1,0 +1,5 @@
+.mcreator/
+build/
+gradle/
+.gradle/
+*.log

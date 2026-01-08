@@ -1,0 +1,242 @@
+{
+  "beach_days": {
+    "sounds": [
+      {
+        "name": "block_party:beach_days",
+        "stream": true
+      }
+    ]
+  },
+  "beach_sunset": {
+    "sounds": [
+      {
+        "name": "block_party:beach_sunset",
+        "stream": true
+      }
+    ]
+  },
+  "beyond_the_block": {
+    "sounds": [
+      {
+        "name": "block_party:beyond_the_block",
+        "stream": true
+      }
+    ]
+  },
+  "block_beat_odyssey": {
+    "sounds": [
+      {
+        "name": "block_party:block_beat_odyssey",
+        "stream": true
+      }
+    ]
+  },
+  "block_king": {
+    "sounds": [
+      {
+        "name": "block_party:block_king",
+        "stream": true
+      }
+    ]
+  },
+  "building_our_tomorrow": {
+    "sounds": [
+      {
+        "name": "block_party:building_our_tomorrow",
+        "stream": true
+      }
+    ]
+  },
+  "builders_of_titans": {
+    "sounds": [
+      {
+        "name": "block_party:builders_of_titans",
+        "stream": true
+      }
+    ]
+  },
+  "building_dreams_in_the_wild": {
+    "sounds": [
+      {
+        "name": "block_party:building_dreams_in_the_wild",
+        "stream": true
+      }
+    ]
+  },
+  "cozy_cafe": {
+    "sounds": [
+      {
+        "name": "block_party:cozy_cafe",
+        "stream": true
+      }
+    ]
+  },
+  "dimensional_odyssey": {
+    "sounds": [
+      {
+        "name": "block_party:dimensional_odyssey",
+        "stream": true
+      }
+    ]
+  },
+  "disco_blocks": {
+    "sounds": [
+      {
+        "name": "block_party:disco_blocks",
+        "stream": true
+      }
+    ]
+  },
+  "dreaming_in_dimensions": {
+    "sounds": [
+      {
+        "name": "block_party:dreaming_in_dimensions",
+        "stream": true
+      }
+    ]
+  },
+  "dreaming_in_pixels": {
+    "sounds": [
+      {
+        "name": "block_party:dreaming_in_pixels",
+        "stream": true
+      }
+    ]
+  },
+  "enders_end": {
+    "sounds": [
+      {
+        "name": "block_party:enders_end",
+        "stream": true
+      }
+    ]
+  },
+  "energy_surge": {
+    "sounds": [
+      {
+        "name": "block_party:energy_surge",
+        "stream": true
+      }
+    ]
+  },
+  "forge_of_the_lost_realms": {
+    "sounds": [
+      {
+        "name": "block_party:forge_of_the_lost_realms",
+        "stream": true
+      }
+    ]
+  },
+  "jive_in_the_colonies": {
+    "sounds": [
+      {
+        "name": "block_party:jive_in_the_colonies",
+        "stream": true
+      }
+    ]
+  },
+  "mystical_forest": {
+    "sounds": [
+      {
+        "name": "block_party:mystical_forest",
+        "stream": true
+      }
+    ]
+  },
+  "neon_dreams": {
+    "sounds": [
+      {
+        "name": "block_party:neon_dreams",
+        "stream": true
+      }
+    ]
+  },
+  "nether_reverie": {
+    "sounds": [
+      {
+        "name": "block_party:nether_reverie",
+        "stream": true
+      }
+    ]
+  },
+  "pixel_dreams": {
+    "sounds": [
+      {
+        "name": "block_party:pixel_dreams",
+        "stream": true
+      }
+    ]
+  },
+  "pixel_echoes": {
+    "sounds": [
+      {
+        "name": "block_party:pixel_echoes",
+        "stream": true
+      }
+    ]
+  },
+  "pixel_surge": {
+    "sounds": [
+      {
+        "name": "block_party:pixel_surge",
+        "stream": true
+      }
+    ]
+  },
+  "pixelated_quest": {
+    "sounds": [
+      {
+        "name": "block_party:pixelated_quest",
+        "stream": true
+      }
+    ]
+  },
+  "pixels_in_motion": {
+    "sounds": [
+      {
+        "name": "block_party:pixels_in_motion",
+        "stream": true
+      }
+    ]
+  },
+  "rock_the_colonies": {
+    "sounds": [
+      {
+        "name": "block_party:rock_the_colonies",
+        "stream": true
+      }
+    ]
+  },
+  "ruins_of_the_nether": {
+    "sounds": [
+      {
+        "name": "block_party:ruins_of_the_nether",
+        "stream": true
+      }
+    ]
+  },
+  "swingin_in_the_colonies": {
+    "sounds": [
+      {
+        "name": "block_party:swingin_in_the_colonies",
+        "stream": true
+      }
+    ]
+  },
+  "valley_of_the_ender": {
+    "sounds": [
+      {
+        "name": "block_party:valley_of_the_ender",
+        "stream": true
+      }
+    ]
+  },
+  "whispers_in_the_blocks": {
+    "sounds": [
+      {
+        "name": "block_party:whispers_in_the_blocks",
+        "stream": true
+      }
+    ]
+  }
+}

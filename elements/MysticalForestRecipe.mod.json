@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "CUSTOM:BlankDisc"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MysticalForest"
+    },
+    "name": "mystical_forest_recipe",
+    "namespace": "mod"
+  }
+}

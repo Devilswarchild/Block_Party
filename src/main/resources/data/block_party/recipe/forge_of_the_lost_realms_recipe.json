@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chipped_anvil"
+    },
+    "b": {
+      "item": "minecraft:damaged_anvil"
+    },
+    "c": {
+      "item": "minecraft:anvil"
+    },
+    "d": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:forge_of_the_lost_realms",
+    "count": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "CUSTOM:BlankDisc"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RuinsOfTheNether"
+    },
+    "name": "ruins_of_the_nether_recipe",
+    "namespace": "mod"
+  }
+}

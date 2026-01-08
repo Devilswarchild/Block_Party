@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="block_party"
+version="2.0.0"
+displayName="The Block Party"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/minecolonies-block-party"
+credits="Created by Devilswarchild"
+authors="Devilswarchild"
+description="MineColonies: Dimesnional Adventure Soundtrack"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.block_party]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.block_party]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

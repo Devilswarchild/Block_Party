@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      },
+      {
+        "value": "CUSTOM:BlankDisc"
+      },
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DimensionalOdyssey"
+    },
+    "name": "dimensional_odyssey_recipe",
+    "namespace": "mod"
+  }
+}

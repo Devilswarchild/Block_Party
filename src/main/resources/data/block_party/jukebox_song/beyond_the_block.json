@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.beyond_the_block.desc"
+  },
+  "length_in_seconds": 172,
+  "sound_event": "block_party:beyond_the_block"
+}

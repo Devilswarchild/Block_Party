@@ -1,0 +1,3 @@
+/weather clearf
+/weather clear
+/gamerule doWeatherCycle false

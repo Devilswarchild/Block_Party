@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cyan_bed"
+    },
+    "b": {
+      "item": "minecraft:lime_bed"
+    },
+    "c": {
+      "item": "minecraft:pink_bed"
+    },
+    "d": {
+      "item": "block_party:blank_disc"
+    }
+  },
+  "result": {
+    "id": "block_party:neon_dreams",
+    "count": 1
+  }
+}

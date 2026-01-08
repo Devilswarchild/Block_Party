@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.dimensional_odyssey.desc"
+  },
+  "length_in_seconds": 209,
+  "sound_event": "block_party:dimensional_odyssey"
+}

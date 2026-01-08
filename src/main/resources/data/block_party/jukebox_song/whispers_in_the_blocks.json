@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.block_party.whispers_in_the_blocks.desc"
+  },
+  "length_in_seconds": 193,
+  "sound_event": "block_party:whispers_in_the_blocks"
+}

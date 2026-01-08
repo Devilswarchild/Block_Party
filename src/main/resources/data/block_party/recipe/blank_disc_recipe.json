@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:honeycomb"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "block_party:blank_disc",
+    "count": 3
+  }
+}
